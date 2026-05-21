@@ -1,0 +1,20 @@
+/* =====================================================================
+   FILE: static/styles.css
+   ===================================================================== */
+*{box-sizing:border-box;margin:0;padding:0;-webkit-tap-highlight-color:transparent}
+:root{
+  --gold:#d4a843;--gold2:#f0c050;--red:#c0392b;--red2:#e74c3c;
+  --green:#1a7a3c;--green2:#27ae60;--blue:#1a6fcc;
+  --bg:#0a0c0f;--bg2:#111418;--bg3:#181c22;--bg4:#1e242c;
+  --border:#2a3040;--text:#e8eaf0;--muted:#6b7585;
+  --radius:12px;
+}
+html,body{height:100%;overflow:hidden}
+body{background:var(--bg);color:var(--text);font-family:'Inter',sans-serif;display:flex;flex-direction:column}
+.screen{display:none;flex-direction:column;flex:1;overflow:hidden}
+.screen.active{display:flex}
+
+/* HEADER */
+.hdr{background:rgba(0,0,0,.95);padding:10px 16px;border-bottom:2px solid var(--gold);display:flex;align-items:center;gap:12px;flex-shrink:0;z-index:10}
+.hdr-logo{font-family:'Raj...
+
